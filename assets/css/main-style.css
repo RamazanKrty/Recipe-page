@@ -63,7 +63,7 @@
     font-weight: bold;
   }
 
-  @media only screen and (max-width:425px) {
+  @media only screen and (max-width:426px) {
     h1 {
     font-size: 2.0em;
   }
