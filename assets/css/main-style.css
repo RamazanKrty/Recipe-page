@@ -64,6 +64,18 @@
   }
 
   @media only screen and (max-width:426px) {
+  #container {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  #content-info, #ingredients, #instructions, #nutrition {
+    padding: 0 1.5em;
+  }
+  #preparation {
+    width: 80%;
+    margin: 0 auto;
+  }
     h1 {
     font-size: 2.0em;
   }
@@ -81,5 +93,8 @@
   ul li, ol li {
   line-height: 1.2em;
   padding-bottom: .8em;
+}
+footer {
+  margin-top: 1em;
 }
   }
